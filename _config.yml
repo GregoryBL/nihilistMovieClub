@@ -6,8 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Nihilist Movie Club Blog
+title: Nihilist Movie Club
 email: nihilistMovieClub@gmail.com
+tagline: "a pointless record of our madness"
 description: > # this means to ignore newlines until "baseurl:"
   A movie club where we fervently believe no movie can make a definitive
   claim to be better than any other. Thus, while we sometimes choose movies
@@ -15,7 +16,7 @@ description: > # this means to ignore newlines until "baseurl:"
   ultimately expect it to be no better than using a random generator.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "nihilistmovie.club" # the base hostname & protocol for your site
-twitter_username:
+twitter_username: "@nihilistMovies"
 github_username:
 
 # Build settings
