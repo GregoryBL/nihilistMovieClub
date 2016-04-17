@@ -199,6 +199,12 @@
 /**
  * Posts
  */
+.post {
+    background-color: white;
+    margin: $spacing-unit, 0px;
+    padding: $spacing-unit;
+}
+
 .post-header {
     margin-bottom: $spacing-unit;
 }
