@@ -10,11 +10,11 @@ layout: default
     {% for post in site.posts %}
     <div class="post">
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
+	{{ post.excerpt }}
+	<h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+	<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       </li>
       </div>
     {% endfor %}
