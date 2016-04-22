@@ -219,6 +219,20 @@
     }
 }
 
+.post-mini {
+    background-color: white;
+    margin: $spacing-unit;
+    //padding: $spacing-unit;
+    max-width: 200px;
+    max-height: 400px;
+
+    .post-link {
+	font-size: 24px;
+	letter-spacing: -1px;
+	line-height: 1;
+	margin: $spacing-unit;
+	padding: $spacing-unit;
+}
 .post-content {
     margin-bottom: $spacing-unit;
 
