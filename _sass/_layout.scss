@@ -10,18 +10,35 @@
     position: relative;
 }
 
+.header-wrapper {
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 0px;
+}
+
 .site-title {
     font-size: 26px;
     font-weight: 300;
-    line-height: 56px;
     letter-spacing: -1px;
-    margin-bottom: 0;
+    margin: 0;
     float: left;
+    padding: 0px;
 
     &,
     &:visited {
         color: $grey-color-dark;
     }
+}
+
+.site-tagline {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-left:20px;
+    clear: left;
 }
 
 .site-nav {
