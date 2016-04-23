@@ -206,16 +206,12 @@
     color: $grey-color;
     margin-left: auto;
     margin-right: auto;
-    width: 6em;
+    text-align: center;
 }
 
 .post-link {
     display: block;
     font-size: 24px;
-    margin-left: auto;
-    margin-right:auto;
-    width: 10em;
-    text-align: center;
 }
 
 
@@ -245,40 +241,34 @@
 
 .post-mini {
     background-color: white;
-    margin: $spacing-unit;
-    //padding: $spacing-unit;
-    max-width: 300px;
-    //max-height: 400px;
-
+    margin-bottom: $spacing-unit;
+    max-width: 350px;
+    
     .post-link {
 	font-size: 18px;
 	letter-spacing: -1px;
 	line-height: 1;
-	// margin: $spacing-unit;
 	padding: 10px;
+	text-align: center;
     }
-    .li {
-	display: inline-block;
-	clear: none;
-
-	> p > img {
-	    object-fit: cover;
-	}
-
+    .post-meta {
+	font-size: 12px;
+	letter-spacing: -1px;
+	line-height: 1;
+	text-align: center;
+	padding-bottom: 10px;
     }
-    
 }
 .post-mini:nth-child(odd) {
     width: 50%;
     float: left;
-    border: 1px solid #fff;
     clear: both;
+    margin-right: $spacing-unit;
 }
 
 .post-mini:nth-child(even) {
     width: 46%;
     float: left;
-    border: 1px solid #fff;
 }
 
 .post-content {
